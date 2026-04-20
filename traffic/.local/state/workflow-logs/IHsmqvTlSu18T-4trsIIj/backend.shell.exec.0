@@ -1,0 +1,82 @@
+
+╔════════════════════════════════════════════════════╗
+║  Smart Traffic Management System - Admin Server   ║
+╚════════════════════════════════════════════════════╝
+
+[Server] HTTP Server running on port 3001
+[Server] Socket.IO ready for signal connections
+[Server] Health check: http://localhost:3001/health
+[Server] API endpoint: http://localhost:3001/api
+
+[System] Waiting for signal nodes to connect...
+
+[Socket] New connection: o89whKANIi6dbOh-AAAB
+[Socket] New connection: 65j5UioRTN_Xbv9HAAAF
+[Socket] New connection: ACgdjgIyCiHNPROzAAAG
+[Socket] New connection: xVEQi9VduPqLlSlZAAAH
+[Signal Connect] Signal B connected
+[Signal Connect] Signal A connected
+[Signal Connect] Signal C connected
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+
+[Green Wave] ═══════════════════════════════════════
+[Green Wave] Junction A → GREEN NOW
+[Green Wave] Speed used: 40 km/h | Signal spacing: 2 km
+[Green Wave] Junction B → GREEN in 180s (ETA: 4:18:11 PM)
+[Green Wave] Junction C → GREEN in 360s (ETA: 4:21:11 PM)
+[Green Wave] ═══════════════════════════════════════
+
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Disconnect] Signal A disconnected
+[Signal Disconnect] Signal B disconnected
+[Signal Disconnect] Signal C disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Socket] New connection: e3RDAwE_B59uQb3nAAAK
+[Socket] New connection: WMxjR84StcnfBsVkAAAO
+[Socket] New connection: Dc4_sA5a_DS4E2FMAAAP
+[Signal Connect] Signal B connected
+[Socket] New connection: Y1EzclyNVwv4u-m2AAAQ
+[Signal Connect] Signal C connected
+[Signal Connect] Signal A connected
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Disconnect] Signal C disconnected
+[Signal Disconnect] Signal B disconnected
+[Signal Disconnect] Signal A disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Socket] New connection: pvUSU9Qioyo1xWQbAAAT
+
+[Green Wave] ⏰ ══════════════════════════════════════════
+[Green Wave] ⏰ NOW: Junction B should turn GREEN
+[Green Wave] ⏰    Traffic arriving from Junction A
+[Green Wave] ⏰ ══════════════════════════════════════════
+
+
+[Green Wave] ⏰ ══════════════════════════════════════════
+[Green Wave] ⏰ NOW: Junction C should turn GREEN
+[Green Wave] ⏰    Traffic arriving from Junction A
+[Green Wave] ⏰ ══════════════════════════════════════════
+

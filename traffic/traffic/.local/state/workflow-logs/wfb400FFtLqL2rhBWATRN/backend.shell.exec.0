@@ -1,0 +1,609 @@
+
+╔════════════════════════════════════════════════════╗
+║  Smart Traffic Management System - Admin Server   ║
+╚════════════════════════════════════════════════════╝
+
+[Server] HTTP Server running on port 3001
+[Server] Socket.IO ready for signal connections
+[Server] Health check: http://localhost:3001/health
+[Server] API endpoint: http://localhost:3001/api
+
+[System] Waiting for signal nodes to connect...
+
+[Socket] New connection: 3bRhDYxt4lDCw6L4AAAB
+[Socket] New connection: Omblr-P_DT3wJ_eiAAAD
+[Signal Connect] Signal A connected
+[Signal Update] Junction A — Vehicles: 0, Density: LOW, Speed: 38 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 18, Density: MEDIUM, Speed: 36 km/h
+[Adaptive]     Junction A — Density: MEDIUM, Vehicles: 18 → Green Time: 60s
+[Signal Update] Junction A — Vehicles: 15, Density: MEDIUM, Speed: 31 km/h
+[Adaptive]     Junction A — Density: MEDIUM, Vehicles: 15 → Green Time: 60s
+[Signal Update] Junction A — Vehicles: 14, Density: LOW, Speed: 45 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 14 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 7, Density: LOW, Speed: 48 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 7 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 10, Density: LOW, Speed: 46 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 10 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 18, Density: MEDIUM, Speed: 44 km/h
+[Adaptive]     Junction A — Density: MEDIUM, Vehicles: 18 → Green Time: 60s
+[Signal Disconnect] Signal A disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Socket] New connection: wEM7kCfq7Pg6ig-UAAAG
+[Socket] New connection: Kc13FhCdW8N4C4pKAAAJ
+[Socket] New connection: LyYAq6roPfOyClPRAAAM
+[Socket] New connection: PKi9FxWqoq1sghlbAAAO
+[Signal Connect] Signal A connected
+[Signal Update] Junction A — Vehicles: 0, Density: LOW, Speed: 38 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 10, Density: LOW, Speed: 35 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 10 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 9, Density: LOW, Speed: 33 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 9 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 12, Density: LOW, Speed: 34 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 12 → Green Time: 30s
+[Signal Disconnect] Signal A disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Socket] New connection: 9Ghp0ngxUAFgGCQPAAAR
+[Socket] New connection: BoKJZwpYnIX4CutDAAAU
+[Socket] New connection: dUstLzCNhxNzoHI0AAAX
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m ]
+[Socket] New connection: 8B4sDGUpqrkJ0IghAAAZ
+[Signal Connect] Signal C connected
+[Signal Update] Junction C — Vehicles: 0, Density: LOW, Speed: 40 km/h
+[Adaptive]     Junction C — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Socket] New connection: 5vQXUbh6pSKlN6QjAAAb
+[Signal Connect] Signal B connected
+[Signal Update] Junction B — Vehicles: 0, Density: LOW, Speed: 42 km/h
+[Adaptive]     Junction B — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Socket] New connection: _HPC8vFpoiLQyxSrAAAd
+[Signal Connect] Signal A connected
+[Signal Update] Junction A — Vehicles: 0, Density: LOW, Speed: 38 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Signal Update] Junction C — Vehicles: 12, Density: LOW, Speed: 41 km/h
+[Adaptive]     Junction C — Density: LOW, Vehicles: 12 → Green Time: 30s
+[Signal Update] Junction B — Vehicles: 11, Density: LOW, Speed: 46 km/h
+[Adaptive]     Junction B — Density: LOW, Vehicles: 11 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 7, Density: LOW, Speed: 43 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 7 → Green Time: 30s
+[Signal Update] Junction C — Vehicles: 6, Density: LOW, Speed: 47 km/h
+[Adaptive]     Junction C — Density: LOW, Vehicles: 6 → Green Time: 30s
+[Signal Update] Junction B — Vehicles: 10, Density: LOW, Speed: 43 km/h
+[Adaptive]     Junction B — Density: LOW, Vehicles: 10 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 18, Density: MEDIUM, Speed: 33 km/h
+[Adaptive]     Junction A — Density: MEDIUM, Vehicles: 18 → Green Time: 60s
+[Signal Update] Junction C — Vehicles: 10, Density: LOW, Speed: 43 km/h
+[Adaptive]     Junction C — Density: LOW, Vehicles: 10 → Green Time: 30s
+[Signal Update] Junction B — Vehicles: 7, Density: LOW, Speed: 35 km/h
+[Adaptive]     Junction B — Density: LOW, Vehicles: 7 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 6, Density: LOW, Speed: 37 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 6 → Green Time: 30s
+[Signal Disconnect] Signal B disconnected
+[Signal Disconnect] Signal C disconnected
+[Signal Disconnect] Signal A disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Socket] New connection: l_ERPJzh7E4aSix9AAAf
+[Signal Connect] Signal A connected
+[Signal Update] Junction A — Vehicles: 0, Density: LOW, Speed: 38 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 11, Density: LOW, Speed: 46 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 11 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 11, Density: LOW, Speed: 48 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 11 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 6, Density: LOW, Speed: 42 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 6 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 16, Density: MEDIUM, Speed: 43 km/h
+[Adaptive]     Junction A — Density: MEDIUM, Vehicles: 16 → Green Time: 60s
+[Signal Update] Junction A — Vehicles: 19, Density: MEDIUM, Speed: 38 km/h
+[Adaptive]     Junction A — Density: MEDIUM, Vehicles: 19 → Green Time: 60s
+[Signal Update] Junction A — Vehicles: 17, Density: MEDIUM, Speed: 45 km/h
+[Adaptive]     Junction A — Density: MEDIUM, Vehicles: 17 → Green Time: 60s
+[Signal Update] Junction A — Vehicles: 5, Density: LOW, Speed: 32 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 5 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 11, Density: LOW, Speed: 40 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 11 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 8, Density: LOW, Speed: 48 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 8 → Green Time: 30s
+[Signal Disconnect] Signal A disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Socket] New connection: IBqcrheQhm9vzI64AAAh
+[Signal Connect] Signal A connected
+[Signal Update] Junction A — Vehicles: 0, Density: LOW, Speed: 38 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Signal Update] Junction A — Vehicles: 16, Density: MEDIUM, Speed: 35 km/h
+[Adaptive]     Junction A — Density: MEDIUM, Vehicles: 16 → Green Time: 60s
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Signal Update] Junction A — Vehicles: 6, Density: LOW, Speed: 31 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 6 → Green Time: 30s
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Signal Disconnect] Signal A disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Socket] New connection: dpF9Qex05j1W6eyvAAAj
+[Signal Connect] Signal A connected
+[Signal Update] Junction A — Vehicles: 0, Density: LOW, Speed: 38 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Signal Update] Junction A — Vehicles: 14, Density: LOW, Speed: 45 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 14 → Green Time: 30s
+
+[Manual Override] ════════════════════════════════════
+[Manual Override] Junction A timing applied:
+[Manual Override]   GREEN  : 15s (until ~3:31:15 PM)
+[Manual Override]   YELLOW : 5s
+[Manual Override]   RED    : 12s (cycle ends ~3:31:32 PM)
+[Manual Override] ════════════════════════════════════
+
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Signal Update] Junction A — Vehicles: 8, Density: LOW, Speed: 44 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 8 → Green Time: 30s
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Signal Update] Junction A — Vehicles: 13, Density: LOW, Speed: 41 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 13 → Green Time: 30s
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Signal Disconnect] Signal A disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[API] System switched to MANUAL mode
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Manual Override] Signal A not connected
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Socket] New connection: 3Ub9Vo58KdwnYvYcAAAl
+[Signal Connect] Signal C connected
+[Signal Update] Junction C — Vehicles: 0, Density: LOW, Speed: 40 km/h
+[Adaptive]     Junction C — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Socket] New connection: ITUzUjvy-6bt_9jgAAAn
+[Signal Connect] Signal B connected
+[Signal Update] Junction B — Vehicles: 0, Density: LOW, Speed: 42 km/h
+[Adaptive]     Junction B — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Socket] New connection: 4qLwOZJsvI8MW-tKAAAp
+[Signal Connect] Signal A connected
+[Signal Update] Junction A — Vehicles: 0, Density: LOW, Speed: 38 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Signal Update] Junction C — Vehicles: 12, Density: LOW, Speed: 41 km/h
+[Adaptive]     Junction C — Density: LOW, Vehicles: 12 → Green Time: 30s
+[Signal Update] Junction B — Vehicles: 12, Density: LOW, Speed: 46 km/h
+[Adaptive]     Junction B — Density: LOW, Vehicles: 12 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 17, Density: MEDIUM, Speed: 31 km/h
+[Adaptive]     Junction A — Density: MEDIUM, Vehicles: 17 → Green Time: 60s
+[Socket] New connection: xwiYWreLCU4UaEPjAAAr
+[Signal Update] Junction C — Vehicles: 14, Density: LOW, Speed: 38 km/h
+[Adaptive]     Junction C — Density: LOW, Vehicles: 14 → Green Time: 30s
+[Signal Update] Junction B — Vehicles: 5, Density: LOW, Speed: 48 km/h
+[Adaptive]     Junction B — Density: LOW, Vehicles: 5 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 12, Density: LOW, Speed: 50 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 12 → Green Time: 30s
+[Signal Update] Junction C — Vehicles: 12, Density: LOW, Speed: 48 km/h
+[Adaptive]     Junction C — Density: LOW, Vehicles: 12 → Green Time: 30s
+[Signal Update] Junction B — Vehicles: 17, Density: MEDIUM, Speed: 39 km/h
+[Adaptive]     Junction B — Density: MEDIUM, Vehicles: 17 → Green Time: 60s
+[Signal Update] Junction A — Vehicles: 11, Density: LOW, Speed: 48 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 11 → Green Time: 30s
+[Signal Disconnect] Signal B disconnected
+[Signal Disconnect] Signal C disconnected
+[Signal Disconnect] Signal A disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Socket] New connection: 5oN-XjEjAXYVBvZRAAAt
+[Signal Connect] Signal A connected
+[Signal Update] Junction A — Vehicles: 0, Density: LOW, Speed: 38 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 9, Density: LOW, Speed: 35 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 9 → Green Time: 30s
+[Signal Disconnect] Signal A disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]

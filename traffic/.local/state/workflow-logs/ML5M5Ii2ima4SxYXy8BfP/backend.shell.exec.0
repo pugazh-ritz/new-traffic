@@ -1,0 +1,342 @@
+
+╔════════════════════════════════════════════════════╗
+║  Smart Traffic Management System - Admin Server   ║
+╚════════════════════════════════════════════════════╝
+
+[Server] HTTP Server running on port 3001
+[Server] Socket.IO ready for signal connections
+[Server] Health check: http://localhost:3001/health
+[Server] API endpoint: http://localhost:3001/api
+
+[System] Waiting for signal nodes to connect...
+
+[Socket] New connection: ifGtScWQ4yd2gqYPAAAC
+[Socket] New connection: fkM7QMrdfqJAYCA7AAAF
+[Socket] New connection: 9Ra0hZ9cP1l6LnHRAAAH
+[Socket] New connection: paKPNAwaBniylDyKAAAJ
+[Socket] New connection: cs4VGzmsh7clnnjXAAAL
+[Signal Connect] Signal A connected
+[Signal Update] Junction A — Vehicles: 0, Density: LOW, Speed: 38 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Socket] New connection: UEFHXIqwyiFByBlZAAAN
+[Signal Update] Junction A — Vehicles: 13, Density: LOW, Speed: 45 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 13 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 11, Density: LOW, Speed: 41 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 11 → Green Time: 30s
+[Signal Disconnect] Signal A disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Socket] New connection: XAMg5tmdeLK7fiPEAAAQ
+[Signal Connect] Signal A connected
+[Signal Update] Junction A — Vehicles: 0, Density: LOW, Speed: 38 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Socket] New connection: XX3LPm5xVoBouGKDAAAR
+[Signal Connect] Signal C connected
+[Signal Update] Junction C — Vehicles: 0, Density: LOW, Speed: 40 km/h
+[Adaptive]     Junction C — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Socket] New connection: FRAI3dPXgIhNVEh6AAAT
+[Signal Connect] Signal B connected
+[Signal Update] Junction B — Vehicles: 0, Density: LOW, Speed: 42 km/h
+[Adaptive]     Junction B — Density: LOW, Vehicles: 0 → Green Time: 30s
+[Socket] New connection: 7pVtTl7LFeB7EAArAAAV
+[Signal Update] Junction A — Vehicles: 16, Density: MEDIUM, Speed: 44 km/h
+[Adaptive]     Junction A — Density: MEDIUM, Vehicles: 16 → Green Time: 60s
+[Signal Update] Junction C — Vehicles: 11, Density: LOW, Speed: 44 km/h
+[Adaptive]     Junction C — Density: LOW, Vehicles: 11 → Green Time: 30s
+[Signal Update] Junction B — Vehicles: 10, Density: LOW, Speed: 35 km/h
+[Adaptive]     Junction B — Density: LOW, Vehicles: 10 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 13, Density: LOW, Speed: 47 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 13 → Green Time: 30s
+[Signal Update] Junction C — Vehicles: 12, Density: LOW, Speed: 43 km/h
+[Adaptive]     Junction C — Density: LOW, Vehicles: 12 → Green Time: 30s
+[Signal Update] Junction B — Vehicles: 6, Density: LOW, Speed: 46 km/h
+[Adaptive]     Junction B — Density: LOW, Vehicles: 6 → Green Time: 30s
+[Signal Update] Junction A — Vehicles: 7, Density: LOW, Speed: 40 km/h
+[Adaptive]     Junction A — Density: LOW, Vehicles: 7 → Green Time: 30s
+[Signal Update] Junction C — Vehicles: 17, Density: MEDIUM, Speed: 38 km/h
+[Adaptive]     Junction C — Density: MEDIUM, Vehicles: 17 → Green Time: 60s
+[Signal Update] Junction B — Vehicles: 8, Density: LOW, Speed: 47 km/h
+[Adaptive]     Junction B — Density: LOW, Vehicles: 8 → Green Time: 30s
+[Signal Disconnect] Signal B disconnected
+[Signal Disconnect] Signal C disconnected
+[Signal Disconnect] Signal A disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Socket] New connection: 0xVwshRC52SSdlNEAAAZ
+[Socket] New connection: _f0q-lvmKE4wJFxqAAAa
+[Signal Connect] Signal A connected
+[Socket] New connection: r7gCdCGQh-xb1pEoAAAb
+[Signal Update] Junction A — Vehicles: 36, Density: HIGH, Speed: 34 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 36 → Green Time: 90s
+[Signal Connect] Signal C connected
+[Signal Connect] Signal B connected
+[Signal Update] Junction C — Vehicles: 43, Density: HIGH, Speed: 26 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 43 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 37, Density: HIGH, Speed: 33 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 37 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Update] Junction A — Vehicles: 37, Density: HIGH, Speed: 31 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 37 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Update] Junction C — Vehicles: 38, Density: HIGH, Speed: 26 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 38 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 34 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Socket] New connection: QxvzyhsACg7kpwt2AAAd
+[Signal Update] Junction A — Vehicles: 41, Density: HIGH, Speed: 32 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 41 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Update] Junction C — Vehicles: 41, Density: HIGH, Speed: 25 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 41 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 32 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Update] Junction A — Vehicles: 43, Density: HIGH, Speed: 31 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 43 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Update] Junction C — Vehicles: 39, Density: HIGH, Speed: 28 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Update] Junction B — Vehicles: 42, Density: HIGH, Speed: 34 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 42 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Disconnect] Signal C disconnected
+[Signal Disconnect] Signal A disconnected
+[Signal Disconnect] Signal B disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Socket] New connection: xnHprM3unLkrGTB-AAAh
+[Socket] New connection: n7qTczMI0h09fEK5AAAi
+[Signal Connect] Signal A connected
+[Signal Connect] Signal B connected
+[Socket] New connection: vk2p5Usaj83F3GleAAAj
+[Signal Update] Junction A — Vehicles: 44, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 44 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 41, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 41 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Update] Junction B — Vehicles: 36, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 36 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Connect] Signal C connected
+[Signal Update] Junction A — Vehicles: 35, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 35 → Green Time: 90s
+
+[Green Wave] ═══════════════════════════════════════
+[Green Wave] Junction A → GREEN NOW
+[Green Wave] Speed used: 400 km/h | Signal spacing: 2 km
+[Green Wave] Junction B → GREEN in 18s (ETA: 4:05:47 PM)
+[Green Wave] Junction C → GREEN in 36s (ETA: 4:06:05 PM)
+[Green Wave] ═══════════════════════════════════════
+
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 35, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 35 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 36, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 36 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 39, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 41, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 41 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 41, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 41 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 41, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 41 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 36, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 36 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 43, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 43 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 44, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 44 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 39, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 35, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 35 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 39, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 43, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 43 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 36, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 36 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 41, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 41 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 42, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 42 → Green Time: 90s
+
+[Green Wave] ⏰ ══════════════════════════════════════════
+[Green Wave] ⏰ NOW: Junction B should turn GREEN
+[Green Wave] ⏰    Traffic arriving from Junction A
+[Green Wave] ⏰ ══════════════════════════════════════════
+
+[Signal Update] Junction B — Vehicles: 43, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 43 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 38, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 38 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 37, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 37 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 35, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 35 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 35, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 35 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 36, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 36 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 42, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 42 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 38, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 38 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 38, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 38 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 36, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 36 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 42, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 42 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 44, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 44 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 38, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 38 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 44, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 44 → Green Time: 90s
+
+[Green Wave] ⏰ ══════════════════════════════════════════
+[Green Wave] ⏰ NOW: Junction C should turn GREEN
+[Green Wave] ⏰    Traffic arriving from Junction A
+[Green Wave] ⏰ ══════════════════════════════════════════
+
+[Signal Update] Junction A — Vehicles: 35, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 35 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+
+[Green Wave] ═══════════════════════════════════════
+[Green Wave] Junction A → GREEN NOW
+[Green Wave] Speed used: 400 km/h | Signal spacing: 2 km
+[Green Wave] Junction B → GREEN in 18s (ETA: 4:06:23 PM)
+[Green Wave] Junction C → GREEN in 36s (ETA: 4:06:41 PM)
+[Green Wave] ═══════════════════════════════════════
+
+[Signal Update] Junction A — Vehicles: 39, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 35, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 35 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 37, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 37 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 38, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 38 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 44, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 44 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 44, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 44 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 37, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 37 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 39, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 39, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 39, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 39, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 44, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 44 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 36, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 36 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 42, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 42 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 43, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 43 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 39, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 35, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 35 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 44, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 44 → Green Time: 90s
+
+[Green Wave] ⏰ ══════════════════════════════════════════
+[Green Wave] ⏰ NOW: Junction B should turn GREEN
+[Green Wave] ⏰    Traffic arriving from Junction A
+[Green Wave] ⏰ ══════════════════════════════════════════
+
+[Signal Update] Junction A — Vehicles: 43, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 43 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 36, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 36 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 44, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 44 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 37, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 37 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 39, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 39, Density: HIGH, Speed: 400 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 39 → Green Time: 90s
+[Signal Disconnect] Signal C disconnected
+[Signal Disconnect] Signal A disconnected
+[Signal Disconnect] Signal B disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+
+[Green Wave] ⏰ ══════════════════════════════════════════
+[Green Wave] ⏰ NOW: Junction C should turn GREEN
+[Green Wave] ⏰    Traffic arriving from Junction A
+[Green Wave] ⏰ ══════════════════════════════════════════
+
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Strategy Change] GREEN_WAVE → ADAPTIVE
+[Reason] No signals online - fail-safe mode
+[Strategy Update] Broadcasting to all signals: ADAPTIVE
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Health Check] Stale signals detected: [ [32m'A'[39m, [32m'C'[39m, [32m'B'[39m ]
+[Socket] New connection: 43AygdjFGh5qWRgiAAAn
+[Socket] New connection: l1xDIlxZYMOpSqE3AAAo
+[Signal Connect] Signal A connected
+[Socket] New connection: 0J2BH4OZe2B5s-dIAAAp
+[Signal Connect] Signal C connected
+[Signal Connect] Signal B connected
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Signal Disconnect] Signal A disconnected
+[Signal Disconnect] Signal B disconnected
+[Signal Disconnect] Signal C disconnected
+[Fail-Safe] No signals online - system in fail-safe mode

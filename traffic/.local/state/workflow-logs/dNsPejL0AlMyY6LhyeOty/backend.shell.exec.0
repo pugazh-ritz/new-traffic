@@ -1,0 +1,134 @@
+
+╔════════════════════════════════════════════════════╗
+║  Smart Traffic Management System - Admin Server   ║
+╚════════════════════════════════════════════════════╝
+
+[Server] HTTP Server running on port 3001
+[Server] Socket.IO ready for signal connections
+[Server] Health check: http://localhost:3001/health
+[Server] API endpoint: http://localhost:3001/api
+
+[System] Waiting for signal nodes to connect...
+
+[Socket] New connection: 5Hy362yFUs-DLgbXAAAB
+[Socket] New connection: _DP3Y_9UtE2qqCtFAAAF
+[Signal Connect] Signal B connected
+[Socket] New connection: FPp_--enkJ9VMfxoAAAG
+[Socket] New connection: LVo48r6BQJZBV1OxAAAH
+[Signal Connect] Signal A connected
+[Signal Connect] Signal C connected
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Broadcast] strategy=GREEN_WAVE timer=null
+[Broadcast] strategy=GREEN_WAVE timer=null
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Broadcast] strategy=GREEN_WAVE timer=null
+[Broadcast] strategy=GREEN_WAVE timer=null
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Strategy Update] Broadcasting to all signals: GREEN_WAVE
+[Broadcast] strategy=GREEN_WAVE timer=null
+
+[Green Wave] ═══════════════════════════════════════
+[Green Wave] Junction A → GREEN NOW
+[Green Wave] Speed used: 40 km/h | Signal spacing: 2 km
+[Green Wave] Junction B → GREEN in 180s (ETA: 4:24:40 PM)
+[Green Wave] Junction C → GREEN in 360s (ETA: 4:27:40 PM)
+[Green Wave] ═══════════════════════════════════════
+
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:180s)
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:180s)
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:179s)
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:179s)
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:178s)
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:176s)
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:176s)
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:176s)
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:174s)
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:174s)
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:174s)
+[Signal Disconnect] Signal A disconnected
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:173s)
+[Signal Disconnect] Signal B disconnected
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:173s)
+[Signal Disconnect] Signal C disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:173s)
+[Socket] New connection: _peMXUa2CwcduGOoAAAL
+[Socket] New connection: urqEYM55PgTBTfegAAAM
+[Socket] New connection: Rmng936KelDvlB59AAAN
+[Signal Connect] Signal B connected
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:126s)
+[Signal Connect] Signal A connected
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:126s)
+[Signal Connect] Signal C connected
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:126s)
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:124s)
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:122s)
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:122s)
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:122s)
+[Signal Update] Junction B — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction B — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:120s)
+[Signal Update] Junction C — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction C — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:120s)
+[Signal Update] Junction A — Vehicles: 40, Density: HIGH, Speed: 40 km/h
+[Adaptive]     Junction A — Density: HIGH, Vehicles: 40 → Green Time: 90s
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:120s)
+[Signal Disconnect] Signal C disconnected
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:118s)
+[Signal Disconnect] Signal A disconnected
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:118s)
+[Signal Disconnect] Signal B disconnected
+[Fail-Safe] No signals online - system in fail-safe mode
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:118s)
+[Socket] New connection: zCoDRE4YXyBv4XeuAAAQ
+[Socket] New connection: HSYdzvCbInrY65lYAAAT
+[Socket] New connection: vREDpjkxQlDsQlauAAAW
+
+[Green Wave] ⏰ ══════════════════════════════════════════
+[Green Wave] ⏰ NOW: Junction B should turn GREEN
+[Green Wave] ⏰    Traffic arriving from Junction A
+[Green Wave] ⏰ ══════════════════════════════════════════
+
+[Broadcast] strategy=GREEN_WAVE timer=SET (B:0s)

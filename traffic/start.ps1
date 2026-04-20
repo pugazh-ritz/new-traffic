@@ -1,0 +1,5 @@
+Start-Process powershell -ArgumentList "cd c:\Users\pugazh_ritz\Downloads\traffic_final\traffic\backend; node src/index.js"; `
+Start-Process powershell -ArgumentList "cd c:\Users\pugazh_ritz\Downloads\traffic_final\traffic\frontend; npm start"; `
+Start-Process powershell -ArgumentList "cd c:\Users\pugazh_ritz\Downloads\traffic_final\traffic; `$env:VIDEO_SOURCE='c:\Users\pugazh_ritz\Downloads\traffic_final\traffic_video.mp4'; `$env:SIGNAL_ID='A'; python -u video-detector.py"; `
+Start-Process powershell -ArgumentList "cd c:\Users\pugazh_ritz\Downloads\traffic_final\traffic; `$env:VIDEO_SOURCE='c:\Users\pugazh_ritz\Downloads\traffic_final\vecteezy_traffic-cars-passing-in-road-with-asphalt-with-cracks-seen_36990287.mov'; `$env:SIGNAL_ID='B'; python -u video-detector.py"; `
+Start-Process powershell -ArgumentList "cd c:\Users\pugazh_ritz\Downloads\traffic_final\traffic; `$env:VIDEO_SOURCE='c:\Users\pugazh_ritz\Downloads\traffic_final\vecteezy_traffic-cars-passing-in-road-with-asphalt-with-cracks-seen_36990287.mov'; `$env:SIGNAL_ID='C'; python -u video-detector.py"

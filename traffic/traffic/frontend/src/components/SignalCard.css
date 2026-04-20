@@ -1,0 +1,281 @@
+.signal-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  min-width: 280px;
+  border-top: 4px solid #ccc;
+}
+
+.signal-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.signal-state-green {
+  border-top-color: #4caf50;
+}
+
+.signal-state-yellow {
+  border-top-color: #ffc107;
+}
+
+.signal-state-red {
+  border-top-color: #f44336;
+}
+
+.signal-card-offline {
+  opacity: 0.6;
+  border: 2px solid #f44336;
+}
+
+.signal-card-empty {
+  opacity: 0.4;
+  border: 2px dashed #ccc;
+}
+
+.signal-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.signal-card-title {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.signal-card-header h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin: 0;
+}
+
+.signal-state-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.state-green {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.state-yellow {
+  background: #fff8e1;
+  color: #f57f17;
+}
+
+.state-red {
+  background: #ffebee;
+  color: #c62828;
+}
+
+/* Traffic Light */
+.traffic-light {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: #1a1a1a;
+  padding: 8px 10px;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.5);
+}
+
+.traffic-light-bulb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signal-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-online {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-offline {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.signal-metric {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.signal-metric.adaptive-timing {
+  background: #e8f5e9;
+  border: 1px solid #c8e6c9;
+}
+
+.metric-icon {
+  font-size: 1.6rem;
+  margin-right: 12px;
+  min-width: 30px;
+  text-align: center;
+}
+
+.density-indicator {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 12px;
+  min-width: 22px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.metric-info {
+  flex: 1;
+}
+
+.metric-label {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.metric-value {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.metric-value.adaptive-green {
+  color: #2e7d32;
+}
+
+.signal-footer {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+}
+
+/* ── Signal Logic Panel ──────────────────────────────── */
+.signal-logic-panel {
+  margin-top: 12px;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.logic-green  { background: #e8f5e9; border-left: 3px solid #4caf50; }
+.logic-red    { background: #fff3f3; border-left: 3px solid #f44336; }
+.logic-yellow { background: #fffde7; border-left: 3px solid #ffc107; }
+
+.logic-header {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.logic-green-reason { color: #2e7d32; font-weight: 600; margin-bottom: 6px; }
+.logic-red-reason   { color: #b71c1c; margin-bottom: 6px; display: flex; align-items: flex-start; gap: 6px; }
+.logic-yellow-reason { color: #f57f17; margin-bottom: 6px; display: flex; align-items: flex-start; gap: 6px; }
+
+.logic-tick  { font-size: 1rem; }
+.logic-dot   { font-size: 0.9rem; margin-top: 1px; }
+
+.logic-next {
+  color: #555;
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
+.logic-next-label {
+  font-weight: 700;
+  color: #333;
+}
+
+.logic-formula {
+  margin-top: 6px;
+  padding: 5px 8px;
+  background: rgba(0,0,0,0.05);
+  border-radius: 5px;
+  font-size: 0.78rem;
+  color: #444;
+}
+
+.empty-hint {
+  font-size: 0.85rem;
+  color: #888;
+  margin: 8px 0 0;
+}
+
+/* ── Cumulative Queue Count (RED phase) ──────────────────── */
+.signal-metric-queue {
+  background: #fff3f3;
+  border: 1px solid #ffcdd2;
+}
+
+.metric-value-queue {
+  color: #c62828;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.metric-value-green {
+  color: #2e7d32;
+}
+
+.queue-badge {
+  font-size: 0.7rem;
+  background: #f44336;
+  color: white;
+  padding: 2px 7px;
+  border-radius: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  animation: pulse-red 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse-red {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.metric-sublabel {
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 2px;
+}

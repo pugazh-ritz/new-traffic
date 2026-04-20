@@ -1,0 +1,16 @@
+
+╔════════════════════════════════════════════════════╗
+║  Smart Traffic Management System - Admin Server   ║
+╚════════════════════════════════════════════════════╝
+
+[Server] HTTP Server running on port 3001
+[Server] Socket.IO ready for signal connections
+[Server] Health check: http://localhost:3001/health
+[Server] API endpoint: http://localhost:3001/api
+
+[System] Waiting for signal nodes to connect...
+
+[Socket] New connection: 7xhWCs35dx9J6NEsAAAC
+[Socket] New connection: 9-SmPM253FsMPR4BAAAF
+[Socket] New connection: KY_4KXt-RBUylnB6AAAH
+[Socket] New connection: 2IkQRg-cSgtN7virAAAJ

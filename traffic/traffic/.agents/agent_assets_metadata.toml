@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "zN9rynn_FYnOKl7gMU4gg"
+uri = "file://LOCAL_SETUP.md"
+type = "text"
+title = "Local Setup Guide — Smart Traffic Management System"
